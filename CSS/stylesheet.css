@@ -2,6 +2,7 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    
 }
 :root {
     --ff-primary: 'Source Sans Pro', sans-serif;
@@ -31,6 +32,7 @@ html {
         --fs-body: 1.125rem;
     }
 }
+
 
 body{
     background-color: var(--clr-light);
@@ -80,6 +82,7 @@ strong{
 }
 
 .intro{
+    
     position: relative;
 }
 header {
@@ -91,7 +94,9 @@ header {
 .logo {
     max-width: 100px;
 }
-
+.italic{
+    font-style: italic;
+}
 .nav {
     position: fixed;
     background: var(--clr-dark);
@@ -197,6 +202,7 @@ header {
     max-width:max-content;
     background-color: var(--clr-dark);
     color: var(--clr-light);
+    text-align: center;
 }
 .my-work{
     margin: 0 auto;
@@ -204,15 +210,18 @@ header {
     background-color: var(--clr-light);
     color: var(--clr-dark);
     text-align: center;
+    
     /*background-size: cover;*/
 }
 .my-experiences{
     margin: 0 auto;
-    max-width:max-content;
+    /*max-width:max-content;*/
     background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;
+    
 }
+
 
 /* Styling the Footer */
 
